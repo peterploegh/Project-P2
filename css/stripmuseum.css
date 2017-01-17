@@ -1,0 +1,45 @@
+/** NAVIGATION BAR **/
+
+/*Sets the layout for the unordered list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+/* Sets the position of the navigation bar */
+li {
+    float: left;
+}
+
+/* Sets the layout for the href links */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Black background color on hover navigation bar */
+li a:hover {
+    background-color: black;
+}
+
+/* Add green background color to the bar you're on */
+.active {
+    background-color: black;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid white;
+}
+
+/** SETS STYLE FOR REST OF PAGE **/
+
+body {
+    background-image: url(../pics/stripmuseum.jpg);
+}
