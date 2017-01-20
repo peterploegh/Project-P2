@@ -45,15 +45,18 @@ body {
 }
 
 div.transbox {
-    margin: 10px;
-    background-color: #ffffff;
+    background-color: white;
+    width: 780px;
+    height: 562px;
     border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 10px 0 0 10px;
     opacity: 0.8;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 div.transbox p, h2, h1 {
-    margin: 1%;
+    margin: 1% 1% 1% 1%;
     font-weight: bold;
 }
 
@@ -62,4 +65,6 @@ div.link a {
 }
 img {
     float: right;
+    margin: 10px 10px;
+    border: 2px solid black;
 }
