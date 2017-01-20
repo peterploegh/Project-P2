@@ -43,3 +43,22 @@ li {
 body {
     background-image: url(../pics/martinitoren.jpg);
 }
+
+/**SETS STYLE FOR REST OF PAGE**/
+
+div {
+    background-color: white;
+    width: 780px;
+    height: 562px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 10px 0 0 10px;
+    opacity: 0.8;
+}
+
+img {
+    float: right;
+    margin: 10px 10px;
+    border: 2px solid black;
+}
