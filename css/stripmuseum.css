@@ -59,3 +59,9 @@ div.transbox p, h2 {
     margin: 1%;
     color: #000000;
 }
+
+img {
+    float: right;
+    margin: 10px 10px;
+    border: 2px solid black;
+}
