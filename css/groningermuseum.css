@@ -53,11 +53,11 @@ div.transbox {
     overflow-y: scroll;
     margin: 10px 0 0 10px;
     opacity: 0.8;
+    float: left;
 }
 
 div.transbox p, h2, h1, h3 {
     margin: 1%;
-
     color: #000000;
 }
 
@@ -65,4 +65,21 @@ img {
     float: right;
     margin: 10px 10px;
     border: 2px solid black;
+}
+
+div.transbox1 {
+    background-color: white;
+    width: 600px;
+    height: 290px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0 10px 10px 0;
+    opacity: 0.8;
+    float: right;
+}
+
+div.transbox1 p, h3 {
+    margin: 1%;
+    color: #000000;
 }
