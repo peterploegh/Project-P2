@@ -43,3 +43,13 @@ li {
 body {
     background-image: url(../pics/home.jpg);
 }
+
+p.title {
+    text-align: center;
+    font-size: 400%;
+}
+
+p.names {
+    text-align: right;
+    font-size: 300%;
+}
