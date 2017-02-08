@@ -39,3 +39,30 @@ li {
 }
 
 /** SETS STYLE FOR REST OF PAGE **/
+
+body {
+    background-image: url("../pics/darkbg.jpg");
+}
+
+p.text1 {
+    color: white;
+    text-align: left;
+    float: left;
+}
+
+p.text2 {
+    color: white;
+    text-align: left;
+    float: right;
+}
+
+img.route1 {
+    float: left;
+    margin: 1% 0 0 0;
+}
+
+img.route2 {
+    float: right;
+    margin: 1% 0 0 0;
+}
+
